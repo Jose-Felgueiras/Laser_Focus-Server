@@ -1,0 +1,12 @@
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\bin\Debug\netcoreapp2.1\LaserFocusServer.deps.json
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\bin\Debug\netcoreapp2.1\LaserFocusServer.runtimeconfig.json
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\bin\Debug\netcoreapp2.1\LaserFocusServer.runtimeconfig.dev.json
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\bin\Debug\netcoreapp2.1\LaserFocusServer.dll
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\bin\Debug\netcoreapp2.1\LaserFocusServer.pdb
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\obj\Debug\netcoreapp2.1\LaserFocusServer.csprojAssemblyReference.cache
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\obj\Debug\netcoreapp2.1\LaserFocusServer.csproj.CoreCompileInputs.cache
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\obj\Debug\netcoreapp2.1\LaserFocusServer.AssemblyInfoInputs.cache
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\obj\Debug\netcoreapp2.1\LaserFocusServer.AssemblyInfo.cs
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\obj\Debug\netcoreapp2.1\LaserFocusServer.dll
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\obj\Debug\netcoreapp2.1\LaserFocusServer.pdb
+E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\bin\Debug\netcoreapp2.1\Users.db
