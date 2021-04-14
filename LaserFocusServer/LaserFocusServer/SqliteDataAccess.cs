@@ -19,7 +19,7 @@ namespace LaserFocusServer
 
         private static void Connect()
         {
-            SQLiteConnection _connection = new SQLiteConnection(@"Data Source = E:\Work\Laser_Focus_Server\LaserFocusServer\LaserFocusServer\Users.db; Version=3");
+            SQLiteConnection _connection = new SQLiteConnection(@"Data Source = E:\Work\Laser_Focus_Server\Laser_Focus-Server\LaserFocusServer\LaserFocusServer\Users.db; Version=3");
             
             _connection.Open();
             if (_connection.State == ConnectionState.Connecting || _connection.State == ConnectionState.Closed)

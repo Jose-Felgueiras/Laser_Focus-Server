@@ -194,6 +194,16 @@ namespace LaserFocusServer
             ServerSend.CanceledMatchmaking(_fromClient);
         }
 
+        public static void HandleReceiveDeck(int _fromClient, Packet _packet)
+        {
+            int[] deck = new int[_packet.ReadInt()];
+            for (int i = 0; i < deck.Length; i++)
+            {
+                deck[i] = _packet.ReadInt();
+            }
+            Server.clients[_fromClient].player.SetDeck(deck);
+        }
+
         public static void PlayerSuccessfullyLoadedRoom(int _fromClient, Packet _packet)
         {
             Server.clients[_fromClient].player.readyToStart = true;

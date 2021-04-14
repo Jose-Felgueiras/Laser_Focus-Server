@@ -236,6 +236,8 @@ namespace LaserFocusServer
             Console.WriteLine($"Player {player.username} attempted to join room {_roomID} but failed");
         }
 
+
+
         public void JoinRandomOrCreateRoom(string _username)
         {
             for (int i = 1; i <= Server.activeRooms.Count; i++)

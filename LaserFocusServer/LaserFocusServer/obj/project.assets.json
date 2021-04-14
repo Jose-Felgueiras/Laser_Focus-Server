@@ -1460,11 +1460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\Laser_Focus_Server\\LaserFocusServer\\LaserFocusServer\\LaserFocusServer.csproj",
+      "projectUniqueName": "E:\\Work\\Laser_Focus_Server\\Laser_Focus-Server\\LaserFocusServer\\LaserFocusServer\\LaserFocusServer.csproj",
       "projectName": "LaserFocusServer",
-      "projectPath": "E:\\Work\\Laser_Focus_Server\\LaserFocusServer\\LaserFocusServer\\LaserFocusServer.csproj",
+      "projectPath": "E:\\Work\\Laser_Focus_Server\\Laser_Focus-Server\\LaserFocusServer\\LaserFocusServer\\LaserFocusServer.csproj",
       "packagesPath": "C:\\Users\\Utilizador\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\Laser_Focus_Server\\LaserFocusServer\\LaserFocusServer\\obj\\",
+      "outputPath": "E:\\Work\\Laser_Focus_Server\\Laser_Focus-Server\\LaserFocusServer\\LaserFocusServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

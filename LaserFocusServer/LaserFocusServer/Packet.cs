@@ -21,6 +21,7 @@ namespace LaserFocusServer
 
         canceledMatchmaking,
         sendPlayerIntoGame,
+        sendDeckToPlayer,
 
         sendPlayerNumber,
         startPlayerTurn,
@@ -52,6 +53,7 @@ namespace LaserFocusServer
 
         joinRandomRoom,
         cancelMatchmaking,
+        sendDeckToServer,
         successfullyLoadedGame,
 
         requestPlayer,

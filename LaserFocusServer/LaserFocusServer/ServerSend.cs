@@ -205,6 +205,19 @@ namespace LaserFocusServer
             }
         }
 
+        public static void SendDeckToPlayer(int _toClient)
+        {
+            using (Packet _packet = new Packet((int)ServerPackets.sendDeckToPlayer))
+            {
+                _packet.Write(Server.clients[_toClient].player.deck.Length);
+                for (int i = 0; i < Server.clients[_toClient].player.deck.Length; i++)
+                {
+                    _packet.Write(Server.clients[_toClient].player.deck[i]);
+                }
+                SendTCPData(_toClient, _packet);
+            }
+        }
+
         public static void SendPlayersIntoGame(int _roomID)
         {
             using (Packet _packet = new Packet((int)ServerPackets.sendPlayerIntoGame))

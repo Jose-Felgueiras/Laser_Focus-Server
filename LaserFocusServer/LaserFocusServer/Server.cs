@@ -149,8 +149,9 @@ namespace LaserFocusServer
 
                 { (int)ClientPackets.joinRandomRoom, ServerHandle.JoinRandomRoom},
                 { (int)ClientPackets.cancelMatchmaking, ServerHandle.CancelMatchmaking},
+                { (int)ClientPackets.sendDeckToServer, ServerHandle.HandleReceiveDeck},
                 { (int)ClientPackets.successfullyLoadedGame, ServerHandle.PlayerSuccessfullyLoadedRoom},
-                 { (int)ClientPackets.requestPlayer, ServerHandle.RequestPlayer},
+                { (int)ClientPackets.requestPlayer, ServerHandle.RequestPlayer},
                 { (int)ClientPackets.placeTowerRequest, ServerHandle.PlaceTowerRequest},
                 { (int)ClientPackets.playerForfeited, ServerHandle.Forfeit},
                 { (int)ClientPackets.sendWinner, ServerHandle.SetWinner},

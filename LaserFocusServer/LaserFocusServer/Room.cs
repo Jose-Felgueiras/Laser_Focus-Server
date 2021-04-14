@@ -158,6 +158,10 @@ namespace LaserFocusServer
                     return;
                 }
             }
+            foreach (Client client in clients)
+            {
+                ServerSend.SendDeckToPlayer(client.id);
+            }
             gameBegun = true;
             Console.WriteLine($"All players finished loading. Ready to start.");
             NextTurn();
